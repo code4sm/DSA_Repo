@@ -47,9 +47,9 @@ int main(){
         insertTrie(s);
     }
     if(searchTrie("sourav"))
-        cout<<"YES";
+        cout<<"True";
     else
-        cout<<"NO";
+        cout<<"false";
     cout <<"numberOfNodesCreated -- >"<<numberOfNodesCreated<<endl;
     return 0;
 }
