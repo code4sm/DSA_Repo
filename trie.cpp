@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 // insert and search O(|S|) S = lengthOfString
+//just to show the code changes
+//need to copy all the elements
 int numberOfNodesCreated = 0;
 struct node{
     node *nxt[26];
@@ -47,9 +49,9 @@ int main(){
         insertTrie(s);
     }
     if(searchTrie("sourav"))
-        cout<<"YES";
+        cout<<"True";
     else
-        cout<<"NO";
+        cout<<"False";
     cout <<"numberOfNodesCreated -- >"<<numberOfNodesCreated<<endl;
     return 0;
 }
