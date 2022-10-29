@@ -3,6 +3,7 @@ using namespace std;
 // insert and search O(|S|) S = lengthOfString
 //just to show the code changes
 //need to copy all the elements gg
+//fhfh
 int numberOfNodesCreated = 0;
 struct node{
     node *nxt[26];
