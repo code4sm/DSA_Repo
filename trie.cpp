@@ -51,7 +51,7 @@ int main(){
     if(searchTrie("sourav"))
         cout<<"True";
     else
-        cout<<"False";
+        cout<<"false";
     cout <<"numberOfNodesCreated -- >"<<numberOfNodesCreated<<endl;
     return 0;
 }
