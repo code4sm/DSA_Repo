@@ -25,7 +25,10 @@ int main(){
                 break;
             }
         }
-        cout << "Case #" << t << ": " << ((n <= k*2 and !moreThanTwo )? "YES" : "NO") << endl;
+        cout << "Case #" << t << ": " << ((n <= k*2 and !moreThanTwo )? "True" : "False") << endl;
+
+        cout << "Case #" << t << ": " << ((n <= k*2 and !moreThanTwo )? "san" : "tan") << endl;
+
     }
     return 0;
 }
