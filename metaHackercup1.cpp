@@ -26,8 +26,7 @@ int main(){
             }
         }
         cout << "Case #" << t << ": " << ((n <= k*2 and !moreThanTwo )? "True" : "False") << endl;
-
-        
+        //
 
     }
     return 0;
